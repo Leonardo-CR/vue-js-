@@ -4,12 +4,12 @@
         <ul>
         <li><router-link to="/lista-tareas">Lista de Tareas </router-link></li>
         <li><router-link to="/contador">Contador</router-link></li>
+        <li><router-link to="/registrar">Registro de usuarios</router-link></li>
         </ul>
     </div>
 </template>
 
 <script setup>
-
 
 
 </script>
@@ -21,5 +21,7 @@
         background-color: rgb(62, 62, 151);
         padding: 20px;
     }
-
+    li{
+        background-color: white;
+    }
 </style>

@@ -6,8 +6,8 @@
 
 <script setup>
 
-  import Contador from './components/Contador.vue' ;
-  import ListaDeTareas from './components/ListaDeTareas.vue' ;
+  import Contador from './modules/Contador/components/Contador.vue' ;
+  import ListaDeTareas from './modules/ListaDeTareas/components/ListaDeTareas.vue' ;
 
   import MainView from './views/MainView.vue';
 
